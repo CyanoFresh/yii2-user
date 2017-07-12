@@ -36,7 +36,7 @@ class ProfileEvent extends Event
     /**
      * @param Profile $form
      */
-    public function setProfile(Profile $form)
+    public function setProfile($form)
     {
         $this->_profile = $form;
     }
