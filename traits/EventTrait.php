@@ -55,7 +55,7 @@ trait EventTrait
      * @return ProfileEvent
      * @throws \yii\base\InvalidConfigException
      */
-    protected function getProfileEvent(Profile $profile)
+    protected function getProfileEvent($profile)
     {
         return \Yii::createObject(['class' => ProfileEvent::className(), 'profile' => $profile]);
     }
